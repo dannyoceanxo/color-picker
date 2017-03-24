@@ -7,7 +7,19 @@
     <link rel="stylesheet" href="/screen.css">
   </head>
   <body>
-    <h1>Hello, World!</h1>
+    <div class="colorpicker">
+      <h1>An HSL Color Picker</h1>
+      <div class="box">
+        <div class="boxdisplay">
+        </div>
+      </div>
+      <div class="text">
+      </div>
+      <div class="hue"><p>Hue</p><input name="hue" type="range" min="0" max="360"></div>
+      <div class="saturation"><p>Saturation</p> <input name="saturation" type= "range" min="0" max="100"></div>
+      <div class="lightness"><p>Lightness</p> <input name="lightness" type="range" min="0" max="100"></div>
+      <div class="alpha"><p>Alpha</p><input name="alpha" type ="range" min="0" max="1" step="0.01"></div>
+    </div>
     <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>
